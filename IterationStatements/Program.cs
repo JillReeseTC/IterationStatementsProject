@@ -83,14 +83,17 @@ namespace IterationStatements
 
         public static void ForLoopWrite15()
         {
-            int num = 1;
+            //For the countup variation, set num = 1 and 
+            // uncomment all of the num++ commands at the 
+            //end of each for loop.
+            int num = 5;   
             //one
             Console.WriteLine("One...");
             for (int i=0; i < num; i++)
             {
                 Console.WriteLine($"{i}");
             }
-            num++;
+            //num++;
 
             //two
             Console.WriteLine("Two...");
@@ -98,7 +101,7 @@ namespace IterationStatements
             {
                 Console.WriteLine($"{i}");
             }
-            num++;
+            //num++;
 
             //three
             Console.WriteLine("Three...");
@@ -106,7 +109,7 @@ namespace IterationStatements
             {
                 Console.WriteLine($"{i}");
             }
-            num++;
+            //num++;
 
             //four
             Console.WriteLine("Four...");
@@ -114,7 +117,7 @@ namespace IterationStatements
             {
                 Console.WriteLine($"{i}");
             }
-            num++;
+            //num++;
 
             //five
             Console.WriteLine("Five...");
@@ -122,7 +125,7 @@ namespace IterationStatements
             {
                 Console.WriteLine($"{i}");
             }
-            num++;
+            //num++;
 
             //six
             Console.WriteLine("Six...");
@@ -130,7 +133,7 @@ namespace IterationStatements
             {
                 Console.WriteLine($"{i}");
             }
-            num++;
+            //num++;
 
             //seven
             Console.WriteLine("Seven...");
@@ -138,7 +141,7 @@ namespace IterationStatements
             {
                 Console.WriteLine($"{i}");
             }
-            num++;
+            //num++;
 
             //eight
             Console.WriteLine("Eight...");
@@ -146,7 +149,7 @@ namespace IterationStatements
             {
                 Console.WriteLine($"{i}");
             }
-            num++;
+            //num++;
 
             //nine
             Console.WriteLine("Nine...");
@@ -154,7 +157,7 @@ namespace IterationStatements
             {
                 Console.WriteLine($"{i}");
             }
-            num++;
+            //num++;
 
             //ten
             Console.WriteLine("Ten...");
@@ -162,7 +165,7 @@ namespace IterationStatements
             {
                 Console.WriteLine($"{i}");
             }
-            num++;
+            //num++;
 
             //eleven
             Console.WriteLine("Eleven...");
@@ -170,7 +173,7 @@ namespace IterationStatements
             {
                 Console.WriteLine($"{i}");
             }
-            num++;
+            //num++;
 
             //twelve
             Console.WriteLine("Twelve...");
@@ -178,7 +181,7 @@ namespace IterationStatements
             {
                 Console.WriteLine($"{i}");
             }
-            num++;
+            //num++;
 
             //thirteen
             Console.WriteLine("Thirteen...");
@@ -186,7 +189,7 @@ namespace IterationStatements
             {
                 Console.WriteLine($"{i}");
             }
-            num++;
+            //num++;
 
             //fourteen
             Console.WriteLine("Fourteen...");
@@ -194,7 +197,7 @@ namespace IterationStatements
             {
                 Console.WriteLine($"{i}");
             }
-            num++;
+            //num++;
 
             //fifteen
             Console.WriteLine("Fifteen...");
@@ -202,7 +205,7 @@ namespace IterationStatements
             {
                 Console.WriteLine($"{i}");
             }
-            num++;
+            //num++;
 
         }
     }
