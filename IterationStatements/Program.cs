@@ -7,37 +7,44 @@ namespace IterationStatements
     {
         static void Main(string[] args)
         {
+            //Exercise 1
+            ForLoopWrite15();
+
+            //Exercise 2
+
                 //TODO - Read each comment and complete its instruction
                 // like the example below
 
                 //Create a List called "numbers" - DONE!
                 var numbers = new List<int>();
-            
+
             //-----START HERE------------------------------------------
             //Create a variable of type int and name it num
             //initialize the variable with a value of 0
-
-
+            int num = 0;
 
             // Create a do-while loop and use the template below:
 
+            do
             {
                 // Increment num by 1
-
+                num++;
                 // Then add num to the collection - numbers
-                    // Hint: reference num inside of the Add method's parentheses
-                numbers.Add(/* num */);
+                // Hint: reference num inside of the Add method's parentheses
+                numbers.Add(num);
 
-            } // <---- While your variable is less than 100
+            } while (num < 100); // <---- While your variable is less than 100
+
 
 
 
             // Create a while loop
-            // <--- While num is less than 200
+            while (num < 200)// <--- While num is less than 200
             {
                 // Increment num by 1
+                num++;
                 // Then add num to the collection numbers
-                    //HINT: copy how this was done in the do while loop
+                numbers.Add(num);    //HINT: copy how this was done in the do while loop
 
             }
 
@@ -47,7 +54,10 @@ namespace IterationStatements
 
 
             // Create a foreach loop using the collection - numbers
-                //In the scope of the foreach loop, print each number in numbers
+            foreach(var item in numbers)
+            {
+                Console.WriteLine(item);
+            }     //In the scope of the foreach loop, print each number in numbers
              
 
 
@@ -61,12 +71,139 @@ namespace IterationStatements
                 // AND as long as i is greater than or equal to 0
                 // Decrement i by 1
 
-            //start for loop here
+            for(int i = numbers.Count - 1; i >= 0; i--)//start for loop here
             {
                 // place numbers[i] inside of the Console.WriteLine() method
+                Console.WriteLine(numbers[i]);
             }
 
             //------------End of exercise
+        }
+
+
+        public static void ForLoopWrite15()
+        {
+            int num = 1;
+            //one
+            Console.WriteLine("One...");
+            for (int i=0; i < num; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+            num++;
+
+            //two
+            Console.WriteLine("Two...");
+            for (int i = 0; i < num; i++ )
+            {
+                Console.WriteLine($"{i}");
+            }
+            num++;
+
+            //three
+            Console.WriteLine("Three...");
+            for (int i = 0; i < num; i++ )
+            {
+                Console.WriteLine($"{i}");
+            }
+            num++;
+
+            //four
+            Console.WriteLine("Four...");
+            for (int i = 0; i < num; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+            num++;
+
+            //five
+            Console.WriteLine("Five...");
+            for (int i=0; i < num; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+            num++;
+
+            //six
+            Console.WriteLine("Six...");
+            for (int i = 0; i < num; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+            num++;
+
+            //seven
+            Console.WriteLine("Seven...");
+            for (int i = 0; i < num; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+            num++;
+
+            //eight
+            Console.WriteLine("Eight...");
+            for (int i = 0; i < num; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+            num++;
+
+            //nine
+            Console.WriteLine("Nine...");
+            for (int i = 0; i < num; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+            num++;
+
+            //ten
+            Console.WriteLine("Ten...");
+            for (int i = 0; i < num; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+            num++;
+
+            //eleven
+            Console.WriteLine("Eleven...");
+            for (int i = 0; i < num; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+            num++;
+
+            //twelve
+            Console.WriteLine("Twelve...");
+            for (int i = 0; i < num; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+            num++;
+
+            //thirteen
+            Console.WriteLine("Thirteen...");
+            for (int i = 0; i < num; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+            num++;
+
+            //fourteen
+            Console.WriteLine("Fourteen...");
+            for (int i = 0; i < num; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+            num++;
+
+            //fifteen
+            Console.WriteLine("Fifteen...");
+            for (int i = 0; i < num; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+            num++;
+
         }
     }
 }
